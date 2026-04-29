@@ -4,6 +4,7 @@ public class Even {
       Scanner t = new Scanner(System.in);
       System.out.print("Enter a number: ");
         int number = t.nextInt();
+        //comment: check if the number is even or odd
 
         if (number % 2 == 0) {
             System.out.println(number + " is an even number.");
