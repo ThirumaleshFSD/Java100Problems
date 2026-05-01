@@ -3,6 +3,7 @@ public class ArrayMaxSum {
         int[] arr = {1, -2, 3, 4, -5, 8};
         int maxSum = Integer.MIN_VALUE;
         int currentSum = 0;
+        //minimum value we can perform the operation
 
         for (int num : arr) {
             currentSum += num;
