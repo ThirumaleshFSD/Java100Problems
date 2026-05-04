@@ -8,6 +8,7 @@ public class PrimeNumber {
                 break;
             }
         }
+        //the comment is added
         if(isPrime)
             System.out.println(n+" is a prime number.");
         else
