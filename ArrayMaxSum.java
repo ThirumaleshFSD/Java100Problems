@@ -7,8 +7,12 @@ public class ArrayMaxSum {
 
         for (int num : arr) {
             currentSum += num;
+            
+            
             if (currentSum > maxSum) {
                 maxSum = currentSum;
+                 
+                
             }
             if (currentSum < 0) {
                 currentSum = 0;
