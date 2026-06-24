@@ -1,3 +1,4 @@
+//the recursion problem to find the sum of first n natural numbers
 public class SumOfNnumbers {
     public static void main(String[] args) {
         int n=11;
