@@ -11,4 +11,6 @@ public class SumOfNnumbers {
             return n;
         return n+getSum(n-1);
     }
+
+    //recuresion
 }

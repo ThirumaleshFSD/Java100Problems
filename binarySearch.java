@@ -27,6 +27,6 @@ public class binarySearch {
             }
         }
 
-        return -1; // Target not found
+        return -1;
     } 
 }

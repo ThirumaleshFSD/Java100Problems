@@ -3,6 +3,7 @@ public class Spiralmatrix2 {
         int[][] matrix = {{1, 2, 3}, {4, 5, 6}, {7, 8, 9}};
         spiralOrder(matrix);
     }
+     
 
     public static void spiralOrder(int[][] matrix) {
         if (matrix == null || matrix.length == 0 || matrix[0].length == 0) {
@@ -45,3 +46,4 @@ public class Spiralmatrix2 {
         }
     }
 }
+//important method   spiral matrix   

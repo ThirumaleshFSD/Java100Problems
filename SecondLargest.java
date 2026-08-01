@@ -3,7 +3,6 @@ public class SecondLargest {
         if (nums.length < 2) {
             throw new IllegalArgumentException("Array must contain at least two elements.");
         }
-
         int largest = Integer.MIN_VALUE;
         int secondLargest = Integer.MIN_VALUE;
 
