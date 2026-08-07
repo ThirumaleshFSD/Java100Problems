@@ -11,5 +11,6 @@ public class ArrayLastDigitAdd {
             sum += num % 10;
         }
         return sum;
+        //the comment added in this
     }
 }
